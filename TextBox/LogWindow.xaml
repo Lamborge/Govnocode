@@ -1,0 +1,16 @@
+﻿<Window x:Class="Govnocode.LogWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:local="clr-namespace:Govnocode"
+    ResizeMode="NoResize"
+    mc:Ignorable="d"
+    Title="LogWindow" Height="200" Width="450">
+<Grid x:Name="Logtext">
+     <ScrollViewer VerticalScrollBarVisibility="Auto" Margin="0,0,100,0">
+        <TextBlock x:Name="TextLogBox" HorizontalAlignment="Left" Margin="19,12,0,0" Text="TextBlock" TextWrapping="Wrap" VerticalAlignment="Top"/>
+    </ScrollViewer>
+    <Button x:Name="ClearButton" Content="Очистить" HorizontalAlignment="Left" Margin="358,116,0,0" VerticalAlignment="Top" Height="32" Width="68" FontSize="14" Click="ClearButton_Click"/>
+</Grid>
+</Window>
