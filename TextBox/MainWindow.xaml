@@ -29,15 +29,15 @@
             </Button.Background>
         </Button>
         <CheckBox x:Name="Dark_Theme" Content="Тёмная тема" HorizontalAlignment="Left" Margin="688,10,0,0" VerticalAlignment="Top" Checked="Dark_Theme_Checked" Unchecked="Dark_Theme_Unchecked" Foreground="Black" FontFamily="Comic Sans MS" />
-        <RadioButton x:Name="CSharp_Radio" Content="C#" GroupName="LP" IsChecked="True" HorizontalAlignment="Left" Margin="57,152,0,0" VerticalAlignment="Top" Background="#FFEAEAEA" FontSize="14"/>
-        <RadioButton x:Name="CPP_Radio" Content="C/C++" GroupName="LP" HorizontalAlignment="Left" Margin="98,152,0,0" VerticalAlignment="Top" Background="#FFEAEAEA" FontSize="14"/>
-        <RadioButton x:Name="Kotlin_Radio" Content="Kotlin" GroupName="LP" HorizontalAlignment="Left" Margin="164,152,0,0" VerticalAlignment="Top" Background="#FFEAEAEA" FontSize="14"/>
-        <RadioButton x:Name="Java_Radio" Content="Java" GroupName="LP" HorizontalAlignment="Left" Margin="224,152,0,0" VerticalAlignment="Top" Background="#FFEAEAEA" FontSize="14"/>
-        <RadioButton x:Name="JavaScript_Radio" Content="JavaScript" GroupName="LP" HorizontalAlignment="Left" Margin="276,153,0,0" VerticalAlignment="Top" Background="#FFEAEAEA" FontSize="14"/>
-        <RadioButton x:Name="PHP_Radio" Content="PHP" GroupName="LP" HorizontalAlignment="Left" Margin="363,154,0,0" VerticalAlignment="Top" Background="#FFEAEAEA" FontSize="14"/>
-        <RadioButton x:Name="Ruby_Radio" Content="Ruby" GroupName="LP" HorizontalAlignment="Left" Margin="412,154,0,0" VerticalAlignment="Top" Background="#FFEAEAEA" FontSize="14"/>
-        <RadioButton x:Name="Swift_Radio" Content="Swift" GroupName="LP" HorizontalAlignment="Left" Margin="466,154,0,0" VerticalAlignment="Top" Background="#FFEAEAEA" FontSize="14"/>
-        <RadioButton x:Name="Python_Radio" Content="Python" GroupName="LP" HorizontalAlignment="Left" Margin="709,154,0,0" VerticalAlignment="Top" Background="#FFEAEAEA" FontSize="14"/>
+        <CheckBox x:Name="CSharp_Radio" Content="C#" IsChecked="True" HorizontalAlignment="Left" Margin="57,152,0,0" VerticalAlignment="Top" Background="#FFEAEAEA" FontSize="14"/>
+        <CheckBox x:Name="CPP_Radio" Content="C/C++" HorizontalAlignment="Left" Margin="98,152,0,0" VerticalAlignment="Top" Background="#FFEAEAEA" FontSize="14"/>
+        <CheckBox x:Name="Kotlin_Radio" Content="Kotlin" HorizontalAlignment="Left" Margin="164,152,0,0" VerticalAlignment="Top" Background="#FFEAEAEA" FontSize="14"/>
+        <CheckBox x:Name="Java_Radio" Content="Java" HorizontalAlignment="Left" Margin="224,152,0,0" VerticalAlignment="Top" Background="#FFEAEAEA" FontSize="14"/>
+        <CheckBox x:Name="JavaScript_Radio" Content="JavaScript" HorizontalAlignment="Left" Margin="276,153,0,0" VerticalAlignment="Top" Background="#FFEAEAEA" FontSize="14"/>
+        <CheckBox x:Name="PHP_Radio" Content="PHP" HorizontalAlignment="Left" Margin="363,154,0,0" VerticalAlignment="Top" Background="#FFEAEAEA" FontSize="14"/>
+        <CheckBox x:Name="Ruby_Radio" Content="Ruby" HorizontalAlignment="Left" Margin="412,154,0,0" VerticalAlignment="Top" Background="#FFEAEAEA" FontSize="14"/>
+        <CheckBox x:Name="Swift_Radio" Content="Swift" HorizontalAlignment="Left" Margin="466,154,0,0" VerticalAlignment="Top" Background="#FFEAEAEA" FontSize="14"/>
+        <CheckBox x:Name="Python_Radio" Content="Python" HorizontalAlignment="Left" Margin="709,154,0,0" VerticalAlignment="Top" Background="#FFEAEAEA" FontSize="14"/>
         <TextBlock x:Name="ChangeLangText" HorizontalAlignment="Left" Margin="51,98,0,0" Text="Выбери свой ЯП:" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Segoe UI Semibold" FontSize="18"/>
         <Button x:Name="LogButton" Content="Log" HorizontalAlignment="Left" Margin="19,375,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Normal" FontStyle="Normal" Click="LogButton_Click"/>
         <TextBlock x:Name="Versinon" HorizontalAlignment="Left" Margin="113,381,0,0" Text="v6.1.2" TextWrapping="Wrap" VerticalAlignment="Top"/>
